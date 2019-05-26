@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:id="@+id/view2"
+            android:background="#00B0FF">
+    </View>
+    <androidx.cardview.widget.CardView
+            android:id="@+id/cardperfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            app:cardCornerRadius="60dp"
+            app:contentPadding="0dp"
+            app:cardElevation="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"/>
+
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/nome"
+              android:layout_width="match_parent"
+              android:layout_height="30dp"
+              android:id="@+id/nomeusuario"
+              android:layout_below="@id/cardperfil"
+              android:layout_marginLeft="10dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="10dp">
+    </TextView>
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/nomeuse"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:id="@+id/nomeuse"
+              android:layout_below="@id/nomeusuario"
+              android:layout_marginLeft="20dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="20dp">
+    </TextView>
+
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/cpf"
+              android:layout_width="match_parent"
+              android:layout_height="30dp"
+              android:id="@+id/cpfusuario"
+              android:layout_below="@id/nomeuse"
+              android:layout_marginLeft="10dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="10dp">
+    </TextView>
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/numerocpf"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:id="@+id/numerocpf"
+              android:layout_below="@id/cpfusuario"
+              android:layout_marginLeft="20dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="20dp">
+    </TextView>
+
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/cnpj"
+              android:layout_width="match_parent"
+              android:layout_height="30dp"
+              android:id="@+id/cnpjusuario"
+              android:layout_below="@id/numerocpf"
+              android:layout_marginLeft="10dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="10dp">
+    </TextView>
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/numerocnpj"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:id="@+id/numerocnpj"
+              android:layout_below="@id/cnpjusuario"
+              android:layout_marginLeft="20dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="20dp">
+    </TextView>
+
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/endereco"
+              android:layout_width="match_parent"
+              android:layout_height="30dp"
+              android:id="@+id/enderecousuario"
+              android:layout_below="@id/numerocnpj"
+              android:layout_marginLeft="10dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="10dp">
+    </TextView>
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/enduse"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:id="@+id/enduse"
+              android:layout_below="@id/enderecousuario"
+              android:layout_marginLeft="20dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="20dp">
+    </TextView>
+
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/tel"
+              android:layout_width="match_parent"
+              android:layout_height="30dp"
+              android:id="@+id/telusuario"
+              android:layout_below="@id/enduse"
+              android:layout_marginLeft="10dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="10dp">
+    </TextView>
+    <TextView tools:ignore="ExtraText"
+              android:text="@string/teluse"
+              android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:id="@+id/teluse"
+              android:layout_below="@id/telusuario"
+              android:layout_marginLeft="20dp"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_marginStart="20dp">
+    </TextView>
+
+</RelativeLayout>

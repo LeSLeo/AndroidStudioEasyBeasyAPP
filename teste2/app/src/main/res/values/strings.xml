@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">teste</string>
+    <string name="nome">Nome</string>
+    <string name="nomeuse">Leonardo Silva Oliveira</string>
+    <string name="cpf">CPF</string>
+    <string name="numerocpf">331.556.789-32</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="numerocnpj">211231312/0001</string>
+    <string name="endereco">Endereço</string>
+    <string name="enduse">Lins de Vasconselos</string>
+    <string name="tel">Telefone</string>
+    <string name="teluse">(11)5555-5555</string>
+</resources>
